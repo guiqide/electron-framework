@@ -7,7 +7,7 @@ module.exports = [
     devtool: 'source-map',
     module: {
       rules: [{
-        test: /\.ts$/,
+        test: /\.ts(x?)$/,
         include: /app/,
         use: [{ loader: 'ts-loader' }],
         exclude: /node_modules/,
