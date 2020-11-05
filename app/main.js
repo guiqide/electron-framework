@@ -1,4 +1,8 @@
 const { app, BrowserWindow } = require('electron')
+const debug = require('electron-debug');
+
+//TODO: 正式环境要去掉
+debug();
 
 function createWindow () {
   // Create the browser window.
